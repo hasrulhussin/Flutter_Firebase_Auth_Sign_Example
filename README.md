@@ -8,6 +8,7 @@ Notes:
 Instruction:
 
 0) Makesure you have added your app by clicking 'Add App' button in the Firebase settings (then select Android icon for Android project).
+For android package name, go to build.gradle (android/app) under 'applicationId'.
 1) Add 'firebase_auth: ^0.15.2' to 'pubspec.yaml' file. Then run 'flutter pub get' in the terminal.
 2) Copy-paste 'google-services.json' (download from firebase) into 'android/app' folder.
 3) Add "apply plugin: 'com.google.gms.google-services'" at the last line on 'build.gradle' file (android/app)
